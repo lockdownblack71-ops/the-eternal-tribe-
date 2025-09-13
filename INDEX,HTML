@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eternal Tribe Terminal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="terminal">
+    <header>
+      <h1>Access Granted</h1>
+      <h2>The Eternal Tribe Terminal</h2>
+    </header>
+
+    <section>
+      <p>Choose your access level:</p>
+      <ul>
+        <li><a href="#" id="sparkLink">SPARK</a></li>
+        <li><a href="#" id="flameLink">FLAME</a></li>
+        <li><a href="#" id="warriorLink">WARRIOR</a></li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>Enter Access Code</h3>
+      <input type="text" id="codeInput" placeholder="Enter code (e.g. SPARK-001)">
+      <button id="codeBtn">Unlock</button>
+      <div id="unlockMessage"></div>
+
+      <div id="sparkChamber" class="hidden">
+        <h4>SPARK Chamber</h4>
+        <p>Welcome to Spark. Join the community chat: 
+          <a href="https://t.me/yourSparkChat" target="_blank">Telegram</a>
+        </p>
+      </div>
+
+      <div id="flameChamber" class="hidden">
+        <h4>FLAME Chamber</h4>
+        <p>Exclusive drops: <a href="#" target="_blank">Download Scroll</a></p>
+      </div>
+
+      <div id="warriorChamber" class="hidden">
+        <h4>WARRIOR Chamber</h4>
+        <p>VIP Lounge: <a href="https://t.me/yourWarriorChat" target="_blank">Telegram</a></p>
+      </div>
+    </section>
+
+    <section>
+      <h3>Support Direct</h3>
+      <p><a href="https://cash.app/$YourCashTag" target="_blank">CashApp</a> | 
+         <a href="https://paypal.me/YourPayPal" target="_blank">PayPal</a> | 
+         <a href="#" target="_blank">Crypto</a></p>
+    </section>
+
+    <footer>
+      <p>© Eternal Tribe. Independent Fan Terminal.</p>
+    </footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
