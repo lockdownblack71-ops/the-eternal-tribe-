@@ -1,12 +1,56 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>The Eternal Tribe Terminal</title>
+  <style>
+    body {
+      background-color: #000; 
+      color: #00ff00; 
+      font-family: "Courier New", monospace;
+      font-size: 18px;
+      padding: 20px;
+    }
+    h1 {
+      color: #39ff14; 
+      text-shadow: 0 0 10px #39ff14;
+    }
+    .cursor {
+      display: inline-block;
+      width: 10px;
+      background: #00ff00;
+      animation: blink 1s infinite;
+    }
+    .box {
+      border: 1px solid #39ff14;
+      padding: 15px;
+      margin-top: 20px;
+    }
+    a {
+      color: #00ff00;
+      text-decoration: none;
+      display: block;
+      margin: 8px 0;
+    }
+    a:hover {
+      color: #39ff14;
+      text-shadow: 0 0 5px #39ff14;
+    }
+  </style>
 </head>
 <body>
-  <h1>⚡ Welcome to The Eternal Tribe ⚡</h1>
-  <p>This is the beginning of your fan club terminal.</p>
-  <p>More features will be added soon...</p>
+  <h1>⚡ Eternal Tribe Terminal ⚡</h1>
+  <p>Welcome, warrior. You have entered the Anointed System.<span class="cursor"></span></p>
+
+  <div class="box">
+    <p>Choose your path:</p>
+    <a href="#">[1] Join the Fan Club</a>
+    <a href="#">[2] Download Scroll of Loyalty (PDF)</a>
+    <a href="#">[3] Read Prophecy Notes</a>
+    <a href="#">[4] Support the Eternal Tribe (Donate)</a>
+    <a href="#">[5] Enter the Cosmic Shop</a>
+  </div>
+
+  <p style="margin-top:40px;">Type your destiny. The Terminal awaits…</p>
 </body>
 </html>
